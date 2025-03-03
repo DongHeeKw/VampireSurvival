@@ -11,7 +11,7 @@ public class Player : MonoBehaviour
     Rigidbody2D rigid;
     SpriteRenderer spriter;
     Animator anim;
-    // Start is called before the first frame update
+
     void Awake()
     {
         rigid = GetComponent<Rigidbody2D>();
